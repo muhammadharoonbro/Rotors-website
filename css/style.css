@@ -1116,199 +1116,24 @@ section {
 
 @media (max-width: 600px) {
   section {
-    padding: 3.5rem 0;
+    padding: 4rem 0;
   }
 
   .container {
     padding: 0 1.25rem;
   }
 
-  /* HERO - mobile first impression */
   .hero {
     min-height: auto;
-    padding-top: 6rem;
-    padding-bottom: 2.5rem;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
   }
 
-  .hero-badge {
-    font-size: 0.65rem;
-    padding: 0.35rem 0.8rem;
-  }
-
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-
-  .hero-text {
-    font-size: 1rem;
-  }
-
-  .hero-image::after {
-    display: none;
-  }
-
-  /* BUTTONS - large touch targets */
   .btn-group {
     flex-direction: column;
   }
 
   .btn {
     justify-content: center;
-    padding: 1rem 1.5rem;
-    font-size: 0.8rem;
-  }
-
-  /* PROBLEM */
-  .problem h2 {
-    font-size: 1.5rem;
-  }
-
-  .problem-text {
-    font-size: 0.95rem;
-  }
-
-  .stat-row {
-    justify-content: center;
-    gap: 1.5rem;
-  }
-
-  .stat-number {
-    font-size: 2rem;
-  }
-
-  /* SOLUTION CARDS */
-  .solution-card {
-    padding: 1.5rem;
-  }
-
-  /* SHOWCASE - taller images on mobile */
-  .showcase-item img,
-  .showcase-item.featured img {
-    height: 240px;
-  }
-
-  .showcase-item .overlay {
-    padding: 1rem;
-  }
-
-  .showcase-item .overlay h4 {
-    font-size: 0.9rem;
-  }
-
-  .showcase-item .overlay p {
-    font-size: 0.8rem;
-  }
-
-  /* VIDEO CARDS */
-  .video-thumb video,
-  .video-card.featured-video .video-thumb video {
-    height: 220px;
-  }
-
-  .video-play-btn {
-    width: 52px;
-    height: 52px;
-    font-size: 1.2rem;
-  }
-
-  .video-card .video-info {
-    padding: 1rem;
-  }
-
-  .video-card .video-info h4 {
-    font-size: 0.9rem;
-  }
-
-  .video-card .video-info p {
-    font-size: 0.8rem;
-  }
-
-  /* PLATFORM */
-  .feature-list li {
-    gap: 0.75rem;
-  }
-
-  .feature-icon {
-    width: 36px;
-    height: 36px;
-    min-width: 36px;
-    font-size: 0.95rem;
-  }
-
-  /* BRANDS */
-  .brand-card {
-    padding: 1.5rem;
-  }
-
-  .brand-card h3 {
-    font-size: 1.15rem;
-  }
-
-  /* CTA */
-  .cta-section h2 {
-    font-size: 1.4rem;
-  }
-
-  /* LIGHTBOX - mobile friendly */
-  .lightbox-overlay {
-    padding: 1rem;
-  }
-
-  .lightbox-close {
-    top: -2.2rem;
-    width: 36px;
-    height: 36px;
-  }
-
-  .lightbox-nav {
-    width: 40px;
-    height: 40px;
-    font-size: 1.1rem;
-  }
-
-  .lightbox-prev { left: 0.25rem; }
-  .lightbox-next { right: 0.25rem; }
-
-  .lightbox-caption h4 {
-    font-size: 1rem;
-  }
-
-  .lightbox-caption p {
-    font-size: 0.85rem;
-  }
-
-  /* HISTORICAL CONTEXT */
-  section > .container > div[style] {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 1.5rem !important;
-  }
-
-  section > .container > div[style] > img {
-    width: 120px !important;
-    margin: 0 auto !important;
-  }
-
-  /* NAV - mobile */
-  .nav-logo img {
-    height: 45px;
-  }
-
-  /* IP PAGE */
-  .ip-hero {
-    padding: 6rem 0 2.5rem;
-  }
-
-  .ip-hero h1 {
-    font-size: 1.6rem;
-  }
-
-  .ip-doc {
-    padding: 1.5rem;
-  }
-
-  .ip-doc div[style*="grid"] {
-    display: flex !important;
-    flex-direction: column !important;
   }
 }
