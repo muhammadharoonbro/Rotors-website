@@ -1,3 +1,45 @@
+/* ===== MAINTENANCE MODE ===== */
+.maintenance-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  background: #0A0A0F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.maintenance-content {
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.maintenance-logo {
+  width: 120px;
+  height: auto;
+  margin: 0 auto 2rem;
+  border-radius: 12px;
+}
+
+.maintenance-overlay h1 {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #F5F5F7;
+  margin-bottom: 1rem;
+}
+
+.maintenance-overlay p {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  color: #F5F5F7;
+  line-height: 1.6;
+}
+
 /* ===== RESET & BASE ===== */
 *, *::before, *::after {
   margin: 0;

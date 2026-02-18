@@ -1,4 +1,8 @@
 {
+  "maintenance": {
+    "enabled": false,
+    "message": "We're updating our site. Please check back shortly."
+  },
   "hero": {
     "badge": "Patented IP \u2022 Ready to License",
     "headline": "Re-engineering the Future of",

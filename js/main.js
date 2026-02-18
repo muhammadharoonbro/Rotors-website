@@ -77,8 +77,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 async function loadContent() {
   try {
     const res = await fetch('content/site.json');
-    if (!res.ok) return; // Fail silently — static HTML fallback is already in place
+    if (!res.ok) return;
     const data = await res.json();
+
+    // Check maintenance mode
+    if (data.maintenance && data.maintenance.enabled) {
+      const overlay = document.getElementById('maintenanceOverlay');
+      const msg = document.getElementById('maintenanceMessage');
+      if (overlay) {
+        if (msg && data.maintenance.message) msg.textContent = data.maintenance.message;
+        overlay.style.display = 'flex';
+        return; // Don't load the rest of the page
+      }
+    }
+
     populatePage(data);
   } catch (e) {
     // JSON not available — static HTML content remains visible

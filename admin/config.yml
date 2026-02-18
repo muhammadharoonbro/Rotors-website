@@ -13,6 +13,14 @@ collections:
         label: "Homepage"
         file: "content/site.json"
         fields:
+          # ===== MAINTENANCE MODE =====
+          - label: "Maintenance Mode"
+            name: "maintenance"
+            widget: "object"
+            fields:
+              - { label: "Enable Maintenance Mode", name: "enabled", widget: "boolean", default: false, hint: "Toggle ON to show a maintenance page to visitors. The admin panel still works." }
+              - { label: "Maintenance Message", name: "message", widget: "string", default: "We're updating our site. Please check back shortly." }
+
           # ===== HERO SECTION =====
           - label: "Hero Section"
             name: "hero"
