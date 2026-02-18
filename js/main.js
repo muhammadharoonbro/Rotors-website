@@ -80,8 +80,9 @@ async function loadContent() {
     if (!res.ok) return;
     const data = await res.json();
 
-    // Check maintenance mode
-    if (data.maintenance && data.maintenance.enabled) {
+    // Check maintenance mode (bypass with ?preview=true in URL)
+    const isPreview = new URLSearchParams(window.location.search).get('preview') === 'true';
+    if (data.maintenance && data.maintenance.enabled && !isPreview) {
       const overlay = document.getElementById('maintenanceOverlay');
       const msg = document.getElementById('maintenanceMessage');
       if (overlay) {
