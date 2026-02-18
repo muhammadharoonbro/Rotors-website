@@ -1,0 +1,137 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "Brooks Rotors GoDaddy"
+public_folder: "Brooks Rotors GoDaddy"
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    files:
+      - name: "homepage"
+        label: "Homepage"
+        file: "content/site.json"
+        fields:
+          # ===== HERO SECTION =====
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Badge Text", name: "badge", widget: "string" }
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Headline Highlight", name: "headline_highlight", widget: "string", hint: "The colored part of the headline" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Hero Image", name: "image", widget: "image" }
+
+          # ===== PROBLEM SECTION =====
+          - label: "Problem Section"
+            name: "problem"
+            widget: "object"
+            fields:
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Paragraph 1", name: "text1", widget: "text" }
+              - { label: "Paragraph 2", name: "text2", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Image Caption", name: "caption", widget: "string" }
+              - label: "Statistics"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Number", name: "number", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+
+          # ===== SOLUTION SECTION =====
+          - label: "Solution Section"
+            name: "solution"
+            widget: "object"
+            fields:
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji or symbol)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+
+          # ===== TECHNOLOGY SECTION =====
+          - label: "Technology Section"
+            name: "technology"
+            widget: "object"
+            fields:
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Gallery Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Featured (spans full width)", name: "featured", widget: "boolean", default: false }
+
+          # ===== VIDEOS SECTION =====
+          - label: "Videos Section"
+            name: "videos"
+            widget: "object"
+            fields:
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Video Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Video File", name: "video", widget: "file" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Featured (spans full width)", name: "featured", widget: "boolean", default: false }
+
+          # ===== PLATFORM SECTION =====
+          - label: "Platform Section"
+            name: "platform"
+            widget: "object"
+            fields:
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Features"
+                name: "features"
+                widget: "list"
+                fields:
+                  - { label: "Icon (emoji or symbol)", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+
+          # ===== BRANDS SECTION =====
+          - label: "Brands Section"
+            name: "brands"
+            widget: "object"
+            fields:
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Brand Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Brand Name", name: "name", widget: "string" }
+                  - { label: "Tagline", name: "tagline", widget: "string" }
+                  - { label: "Bullet Points", name: "bullets", widget: "list", field: { label: "Point", name: "point", widget: "string" } }
+
+          # ===== CTA SECTION =====
+          - label: "Call to Action"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Contact Email", name: "email", widget: "string" }
+
+          # ===== FOOTER =====
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Copyright Text", name: "copyright", widget: "string" }
+              - { label: "Notice", name: "notice", widget: "string" }
