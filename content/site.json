@@ -1,73 +1,29 @@
 {
-  "maintenance": {
-    "enabled": true,
-    "message": "We're updating our site. Please check back shortly."
-  },
-  "hero": {
-    "badge": "Patented IP \u2022 Ready to License",
-    "headline": "Re-engineering the Future of",
-    "headline_highlight": "Athletic Traction",
-    "description": "A revolutionary, patented turntable cleat system engineered to dramatically decrease rotational stress on the ACL/MCL \u2014 without compromising the lateral stability or explosive traction elite athletes demand.",
-    "image": "Brooks Rotors GoDaddy/Float 2-9-26.jpg"
-  },
-  "problem": {
-    "headline": "Modern Cleats Maximize Traction at the Cost of the Athlete\u2019s Knee",
-    "text1": "Fixed studs create high torsional resistance, making non-contact ACL/MCL tears an epidemic in soccer, football, and lacrosse. When an athlete plants and pivots, the foot stays locked in the turf while the body rotates \u2014 transferring catastrophic force to the knee.",
-    "text2": "Karolinias et al. (5/5/25) demonstrated that fatigue plays a significant role in ACL injuries. Current footwear offers zero adaptability to changing athlete conditions.",
-    "image": "Brooks Rotors GoDaddy/redskins knee.jpg",
-    "caption": "Non-contact ACL tear \u2014 the foot sticks while the body rotates, devastating the knee.",
-    "stats": [
-      { "number": "250K+", "label": "ACL Injuries / Year (US)" },
-      { "number": "$2B+", "label": "Annual Treatment Cost" },
-      { "number": "70%", "label": "Are Non-Contact" }
-    ]
-  },
-  "solution": {
-    "headline": "The Rotors Turntable System",
-    "description": "A precision-engineered turntable on the ball of the foot that allows natural rotation during rapid cutting \u2014 instantly releasing, rather than grabbing, the turf.",
-    "cards": [
-      {
-        "icon": "\u2699",
-        "title": "Dynamic Biomechanical Performance",
-        "description": "Facilitates natural kinetic chain alignment during high-velocity pivots, actively minimizing rotational torque transferred to the knee joint during high-impact maneuvers."
-      },
-      {
-        "icon": "\u2696",
-        "title": "Seamless Integration",
-        "description": "Designed as a modular cleat plate assembly, engineered to integrate into existing performance franchises (Nike Mercurial, Adidas Predator, Puma Future) with minimal tooling disruption."
-      },
-      {
-        "icon": "\u2605",
-        "title": "Zero Performance Compromise",
-        "description": "Provides superior traction during acceleration while enabling \u201cdisengagement\u201d protection during rotation. Athletes play with higher confidence and less fatigue."
-      }
-    ]
-  },
   "technology": {
     "headline": "Engineered Precision",
-    "description": "From 3D CAD to functional prototypes \u2014 the Rotors system is fully developed and patent-protected.",
+    "description": "From 3D CAD to functional prototypes — the Rotors system is fully developed and patent-protected.",
     "items": [
       {
         "image": "Brooks Rotors GoDaddy/Multicolor B.jpg",
-        "title": "Full Sole Assembly \u2014 3D CAD",
+        "title": "Full Sole Assembly — 3D CAD",
         "description": "Complete cleat plate with the Rotors turntable integrated at the ball of the foot. Shows the full sole architecture including fixed studs at the heel and the rotational mechanism at the forefoot.",
         "featured": true
       },
       {
         "image": "Brooks Rotors GoDaddy/Shapr 4.jpg",
-        "title": "Turntable Mechanism \u2014 3D Model",
+        "title": "Turntable Mechanism — 3D Model",
         "description": "Detailed CAD rendering of the rotor gear with cone-shaped interchangeable studs. The gear teeth interact with the torque-dampening system to control rotational resistance.",
         "featured": false
       },
       {
         "image": "Brooks Rotors GoDaddy/Cog assembly.jpg",
-        "title": "Cog Assembly \u2014 Prototype",
+        "title": "Cog Assembly — Prototype",
         "description": "3D-printed functional prototype showing the rotor with cleat studs, gear teeth around the circumference, and the central screw mounting system that secures it to the sole plate.",
         "featured": false
       },
       {
         "image": "Brooks Rotors GoDaddy/Copy of FIG 2 Rotor in Sole.JPG",
-        "title": "Patent Figure \u2014 Rotor in Sole",
+        "title": "Patent Figure — Rotor in Sole",
         "description": "Technical drawing from US Patent 11,388,947 B1 showing the rotor assembly (11) with cleat members (15), gear teeth (13), and the compressible torque-dampening device (21) that controls rotation.",
         "featured": false
       },
@@ -79,95 +35,31 @@
       },
       {
         "image": "Brooks Rotors GoDaddy/Copy of Blue Rotor.jpg",
-        "title": "Integrated Rotor \u2014 Cleat Profile",
-        "description": "Side view of the Rotors cleat showing the blue turntable mounted flush in the forefoot. The \u201cR\u201d branding is visible on the upper. Demonstrates how the rotor integrates seamlessly into the sole without adding bulk.",
+        "title": "Integrated Rotor — Cleat Profile",
+        "description": "Side view of the Rotors cleat showing the blue turntable mounted flush in the forefoot. The “R” branding is visible on the upper. Demonstrates how the rotor integrates seamlessly into the sole without adding bulk.",
         "featured": false
       },
       {
         "image": "Brooks Rotors GoDaddy/Push pin.jpg",
         "title": "Stud Retention Detail",
-        "description": "Close-up showing how individual studs lock into the rotor gear using a push-pin retention system. This allows athletes to swap stud shapes (blade, cone, or Grabber\u2122) without tools.",
+        "description": "Close-up showing how individual studs lock into the rotor gear using a push-pin retention system. This allows athletes to swap stud shapes (blade, cone, or Grabber™) without tools.",
         "featured": false
       },
       {
-        "image": "Brooks Rotors GoDaddy/Copy of \u5fae\u4fe1\u56fe\u7247_20221115083325.jpg",
+        "image": "Brooks Rotors GoDaddy/Copy of 微信图片_20221115083325.jpg",
         "title": "Manufacturing Specification",
-        "description": "Factory sample sheet from the production partner showing material callouts (kangaroo leather upper), color specifications, insole details, and the \u201cR\u201d branding placement for the prototype cleat.",
+        "description": "Factory sample sheet from the production partner showing material callouts (kangaroo leather upper), color specifications, insole details, and the “R” branding placement for the prototype cleat.",
         "featured": false
-      }
-    ]
-  },
-  "videos": {
-    "headline": "Rotors Technology Demonstrations",
-    "description": "Watch the turntable mechanism in motion \u2014 from controlled clicks to real-world rotation.",
-    "items": [
-      {
-        "video": "Brooks Rotors GoDaddy/AA Copy of Coin replace.MOV",
-        "title": "Coin Replace Demonstration",
-        "description": "Watch the interchangeable rotor system in action \u2014 rotors swap out in seconds using a simple coin tool, allowing athletes to switch configurations between halves or before a match based on field conditions.",
-        "featured": true
-      },
-      {
-        "video": "Brooks Rotors GoDaddy/AA Copy of VIDEO Clicks.MOV",
-        "title": "Click Mechanism",
-        "description": "Hear the audible click feedback as the rotor engages with the torque-dampening gear teeth. Each click represents a controlled resistance point that limits rotation to a safe range.",
-        "featured": false
-      },
-      {
-        "video": "Brooks Rotors GoDaddy/AA Copy of China Rotor Click.mp4",
-        "title": "Rotor Click \u2014 Production Sample",
-        "description": "Factory-produced rotor from the manufacturing partner demonstrating the same precision click engagement as the prototype \u2014 confirming production-readiness of the mechanism.",
-        "featured": false
-      },
-      {
-        "video": "Brooks Rotors GoDaddy/AA Snow Pirouette.mov",
-        "title": "Snow Pirouette",
-        "description": "Real-world demonstration of rotational freedom on a natural surface. The rotor allows a full pirouette turn while the studs remain planted \u2014 exactly the motion that would tear an ACL in a fixed-stud cleat.",
-        "featured": false
-      },
-      {
-        "video": "Brooks Rotors GoDaddy/Copy of Bend Tabs.MOV",
-        "title": "Bend Tabs",
-        "description": "Demonstrates the flexible stud tab system \u2014 studs can flex under load to absorb lateral forces, adding another layer of protection beyond the rotational turntable.",
-        "featured": false
-      },
-      {
-        "video": "Brooks Rotors GoDaddy/A Copy of Video Nov 12 2025, 12 14 20 PM.mp4",
-        "title": "Rotor Assembly Demo",
-        "description": "Full walkthrough showing how the rotor, studs, and dampening system assemble into the sole plate. Highlights the modular design that enables easy servicing and customization.",
-        "featured": false
-      }
-    ]
-  },
-  "platform": {
-    "headline": "The First All-in-One Fully Customizable System",
-    "description": "Rotors is the first platform that is fully customizable to the athlete\u2019s conditions at a specific moment. The system can be altered across three dimensions:",
-    "image": "Brooks Rotors GoDaddy/Copy of Colored rotors.jpg",
-    "features": [
-      {
-        "icon": "\u21bb",
-        "title": "Torque Resistance",
-        "description": "Adjustable to match how tight the player\u2019s ligaments and tendons are that day. Fatigued athletes get more rotational freedom."
-      },
-      {
-        "icon": "\u2195",
-        "title": "Stud Length",
-        "description": "Adaptable to field conditions \u2014 whether it\u2019s freezing, raining, or a firm dry pitch."
-      },
-      {
-        "icon": "\u25c6",
-        "title": "Stud Shape",
-        "description": "Blade, cone, or Grabber\u2122 moveable cleat shape \u2014 configurable for sport and surface."
       }
     ]
   },
   "brands": {
     "headline": "Aligned with Industry Leaders",
-    "description": "This technology maps directly to the innovation strategies of the world\u2019s top athletic brands.",
+    "description": "This technology maps directly to the innovation strategies of the world’s top athletic brands.",
     "cards": [
       {
         "name": "Nike",
-        "tagline": "\"The Sport Offense\" \u2022 Athlete-Centered Innovation",
+        "tagline": "\"The Sport Offense\" • Athlete-Centered Innovation",
         "bullets": [
           "Aligns with unified innovation engine strategy",
           "Integrates into Mercurial franchise",
@@ -177,7 +69,7 @@
       },
       {
         "name": "Adidas",
-        "tagline": "\"Own the Game\" \u2022 Strategic IP Focus",
+        "tagline": "\"Own the Game\" • Strategic IP Focus",
         "bullets": [
           "Quality over quantity IP strategy",
           "High-value, enforceable patent acquisition",
@@ -187,7 +79,7 @@
       },
       {
         "name": "Puma",
-        "tagline": "\"Forever Faster\" \u2022 Pushing Boundaries",
+        "tagline": "\"Forever Faster\" • Pushing Boundaries",
         "bullets": [
           "Ultimate agility positioning",
           "Radical redesign opportunity",
@@ -199,11 +91,128 @@
   },
   "cta": {
     "headline": "This Is Not a Product Pitch. This Is a Strategic IP Acquisition.",
-    "description": "We are seeking a licensing partnership with a market leader. This patented technology offers a turnkey, royalty-based licensing or full IP acquisition \u2014 allowing your brand to lead the next generation of injury-preventative footwear without the R&D lead time.",
+    "description": "We are seeking a licensing partnership with a market leader. This patented technology offers a turnkey, royalty-based licensing or full IP acquisition — allowing your brand to lead the next generation of injury-preventative footwear without the R&D lead time.",
     "email": "contact@rotorstech.com"
   },
+  "platform": {
+    "headline": "The First All-in-One Fully Customizable System",
+    "description": "Rotors is the first platform that is fully customizable to the athlete’s conditions at a specific moment. The system can be altered across three dimensions:",
+    "image": "Brooks Rotors GoDaddy/Copy of Colored rotors.jpg",
+    "features": [
+      {
+        "icon": "↻",
+        "title": "Torque Resistance",
+        "description": "Adjustable to match how tight the player’s ligaments and tendons are that day. Fatigued athletes get more rotational freedom."
+      },
+      {
+        "icon": "↕",
+        "title": "Stud Length",
+        "description": "Adaptable to field conditions — whether it’s freezing, raining, or a firm dry pitch."
+      },
+      {
+        "icon": "◆",
+        "title": "Stud Shape",
+        "description": "Blade, cone, or Grabber™ moveable cleat shape — configurable for sport and surface."
+      }
+    ]
+  },
+  "maintenance": {
+    "enabled": false,
+    "message": "We're updating our site. Please check back shortly."
+  },
+  "videos": {
+    "headline": "Rotors Technology Demonstrations",
+    "description": "Watch the turntable mechanism in motion — from controlled clicks to real-world rotation.",
+    "items": [
+      {
+        "video": "Brooks Rotors GoDaddy/AA Copy of Coin replace.MOV",
+        "title": "Coin Replace Demonstration",
+        "description": "Watch the interchangeable rotor system in action — rotors swap out in seconds using a simple coin tool, allowing athletes to switch configurations between halves or before a match based on field conditions.",
+        "featured": true
+      },
+      {
+        "video": "Brooks Rotors GoDaddy/AA Copy of VIDEO Clicks.MOV",
+        "title": "Click Mechanism",
+        "description": "Hear the audible click feedback as the rotor engages with the torque-dampening gear teeth. Each click represents a controlled resistance point that limits rotation to a safe range.",
+        "featured": false
+      },
+      {
+        "video": "Brooks Rotors GoDaddy/AA Copy of China Rotor Click.mp4",
+        "title": "Rotor Click — Production Sample",
+        "description": "Factory-produced rotor from the manufacturing partner demonstrating the same precision click engagement as the prototype — confirming production-readiness of the mechanism.",
+        "featured": false
+      },
+      {
+        "video": "Brooks Rotors GoDaddy/AA Snow Pirouette.mov",
+        "title": "Snow Pirouette",
+        "description": "Real-world demonstration of rotational freedom on a natural surface. The rotor allows a full pirouette turn while the studs remain planted — exactly the motion that would tear an ACL in a fixed-stud cleat.",
+        "featured": false
+      },
+      {
+        "video": "Brooks Rotors GoDaddy/Copy of Bend Tabs.MOV",
+        "title": "Bend Tabs",
+        "description": "Demonstrates the flexible stud tab system — studs can flex under load to absorb lateral forces, adding another layer of protection beyond the rotational turntable.",
+        "featured": false
+      },
+      {
+        "video": "Brooks Rotors GoDaddy/A Copy of Video Nov 12 2025, 12 14 20 PM.mp4",
+        "title": "Rotor Assembly Demo",
+        "description": "Full walkthrough showing how the rotor, studs, and dampening system assemble into the sole plate. Highlights the modular design that enables easy servicing and customization.",
+        "featured": false
+      }
+    ]
+  },
+  "solution": {
+    "headline": "The Rotors Turntable System",
+    "description": "A precision-engineered turntable on the ball of the foot that allows natural rotation during rapid cutting — instantly releasing, rather than grabbing, the turf.",
+    "cards": [
+      {
+        "icon": "⚙",
+        "title": "Dynamic Biomechanical Performance",
+        "description": "Facilitates natural kinetic chain alignment during high-velocity pivots, actively minimizing rotational torque transferred to the knee joint during high-impact maneuvers."
+      },
+      {
+        "icon": "⚖",
+        "title": "Seamless Integration",
+        "description": "Designed as a modular cleat plate assembly, engineered to integrate into existing performance franchises (Nike Mercurial, Adidas Predator, Puma Future) with minimal tooling disruption."
+      },
+      {
+        "icon": "★",
+        "title": "Zero Performance Compromise",
+        "description": "Provides superior traction during acceleration while enabling “disengagement” protection during rotation. Athletes play with higher confidence and less fatigue."
+      }
+    ]
+  },
+  "hero": {
+    "badge": "Patented IP • Ready to License",
+    "headline": "Re-engineering the Future of",
+    "headline_highlight": "Athletic Traction",
+    "description": "A revolutionary, patented turntable cleat system engineered to dramatically decrease rotational stress on the ACL/MCL — without compromising the lateral stability or explosive traction elite athletes demand.",
+    "image": "Brooks Rotors GoDaddy/Float 2-9-26.jpg"
+  },
   "footer": {
-    "copyright": "\u00a9 2026 Rotors Technology. All Rights Reserved.",
-    "notice": "Confidential \u2014 Not for public distribution"
+    "copyright": "© 2026 Rotors Technology. All Rights Reserved.",
+    "notice": "Confidential — Not for public distribution"
+  },
+  "problem": {
+    "headline": "Modern Cleats Maximize Traction at the Cost of the Athlete’s Knee",
+    "text1": "Fixed studs create high torsional resistance, making non-contact ACL/MCL tears an epidemic in soccer, football, and lacrosse. When an athlete plants and pivots, the foot stays locked in the turf while the body rotates — transferring catastrophic force to the knee.",
+    "text2": "Karolinias et al. (5/5/25) demonstrated that fatigue plays a significant role in ACL injuries. Current footwear offers zero adaptability to changing athlete conditions.",
+    "image": "Brooks Rotors GoDaddy/redskins knee.jpg",
+    "caption": "Non-contact ACL tear — the foot sticks while the body rotates, devastating the knee.",
+    "stats": [
+      {
+        "number": "250K+",
+        "label": "ACL Injuries / Year (US)"
+      },
+      {
+        "number": "$2B+",
+        "label": "Annual Treatment Cost"
+      },
+      {
+        "number": "70%",
+        "label": "Are Non-Contact"
+      }
+    ]
   }
 }
