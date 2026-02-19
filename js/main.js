@@ -70,18 +70,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // ===== CMS CONTENT LOADER =====
-// Fetches content/site.json directly from GitHub so CMS changes
+// Fetches content/site.json via GitHub API so CMS changes
 // take effect immediately — no Netlify redeploy required.
 
-const GITHUB_RAW = 'https://raw.githubusercontent.com/muhammadharoonbro/Rotors-website/main/content/site.json';
+const GITHUB_API = 'https://api.github.com/repos/muhammadharoonbro/Rotors-website/contents/content/site.json?ref=main';
 
 async function loadContent() {
   try {
     let data;
 
-    // Try GitHub first (real-time CMS updates), fall back to local file
+    // Try GitHub API first (no CDN caching — always returns latest)
     try {
-      const ghRes = await fetch(GITHUB_RAW + '?t=' + Date.now());
+      const ghRes = await fetch(GITHUB_API, {
+        headers: { 'Accept': 'application/vnd.github.v3.raw' },
+        cache: 'no-store'
+      });
       if (ghRes.ok) data = await ghRes.json();
     } catch (e) { /* GitHub unavailable */ }
 
