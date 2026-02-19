@@ -70,15 +70,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // ===== CMS CONTENT LOADER =====
-// Load content from JSON and populate the page dynamically.
-// When the client edits via Decap CMS at /admin, it updates the JSON file,
-// Netlify rebuilds, and the site reflects the changes.
+// Fetches content/site.json directly from GitHub so CMS changes
+// take effect immediately — no Netlify redeploy required.
+
+const GITHUB_RAW = 'https://raw.githubusercontent.com/muhammadharoonbro/Rotors-website/main/content/site.json';
 
 async function loadContent() {
   try {
-    const res = await fetch('content/site.json');
-    if (!res.ok) return;
-    const data = await res.json();
+    let data;
+
+    // Try GitHub first (real-time CMS updates), fall back to local file
+    try {
+      const ghRes = await fetch(GITHUB_RAW + '?t=' + Date.now());
+      if (ghRes.ok) data = await ghRes.json();
+    } catch (e) { /* GitHub unavailable */ }
+
+    if (!data) {
+      const localRes = await fetch('content/site.json');
+      if (!localRes.ok) return;
+      data = await localRes.json();
+    }
 
     // Check maintenance mode (bypass with ?preview=true in URL)
     const isPreview = new URLSearchParams(window.location.search).get('preview') === 'true';
