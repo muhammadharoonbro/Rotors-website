@@ -117,7 +117,7 @@
     ]
   },
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "message": "We're updating our site. Please check back shortly."
   },
   "videos": {
