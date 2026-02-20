@@ -117,7 +117,7 @@
     ]
   },
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "message": "We're updating our site. Please check back shortly."
   },
   "videos": {
@@ -156,7 +156,7 @@
       },
       {
         "video": "Brooks Rotors GoDaddy/AA Snow Pirouette.mov",
-        "title": "Snow Pirouette",
+        "title": "Can your cleat do this?",
         "description": "Real-world demonstration of rotational freedom on a natural surface. The rotor allows a full pirouette turn while the studs remain planted — exactly the motion that would tear an ACL in a fixed-stud cleat.",
         "featured": false
       }
