@@ -191,11 +191,11 @@
     "image": "Brooks Rotors GoDaddy/Float 2-9-26.jpg"
   },
   "footer": {
-    "copyright": "© 2026 Rotors, Inc.. All Rights Reserved.",
+    "copyright": "© 2026 Rotors, Inc.. All Rights Reserved.  The Mechanism of Non-contact Anterior Cruciate Ligament Injury in Female Athletes: Is the Injury Mechanism Different between the Genders? January 2014International Journal of Physical Medicine & Rehabilitation 02(06) DOI:10.4172/2329-9096.1000246   https://pubmed.ncbi.nlm.nih.gov/40977611/#:~:text=Results:%20Between%20the%202016%2D2017,only%20in%20the%20male%20group.   https://projectplay.org/news/2023/11/22/analysis-serious-knee-injury-among-teen-athletes-grows-26",
     "notice": "Confidential — Not for public distribution"
   },
   "problem": {
-    "headline": "Modern Cleats Maximize Traction at the Cost of the Athlete’s Knee",
+    "headline": "Modern Cleats Maximize Traction but there's a Cost.",
     "text1": "Fixed studs create high torsional resistance, making non-contact ACL/MCL tears an epidemic in soccer, football, and lacrosse. When an athlete plants and pivots, the foot stays locked in the turf while the body rotates — transferring catastrophic force to the knee.",
     "text2": "Karolinias et al. (5/5/25) demonstrated that fatigue plays a significant role in ACL injuries. Current footwear offers zero adaptability to changing athlete conditions.",
     "image": "Brooks Rotors GoDaddy/injuries-2.jpg",
@@ -203,15 +203,27 @@
     "stats": [
       {
         "number": "250K+",
-        "label": "ACL Injuries / Year (US)"
+        "label": "Number of ACL Injuries / Year (US)"
       },
       {
-        "number": "$2B+",
-        "label": "Annual Treatment Cost"
+        "number": "~ 70%",
+        "label": "Are Non-Contact injuries"
       },
       {
-        "number": "70%",
-        "label": "Are Non-Contact"
+        "number": "+25.9%",
+        "label": "Between 2007 and 2022 ACL injuries to High School athletes have increased by more than 25% as students vie for scholarships and practice a single sport year-round, chronically stressing the same muscles and joints."
+      },
+      {
+        "number": "449 and 1,250",
+        "label": "Number of ACL and MCL tears (respectively) suffered ny NFL Players between 2016 and 2026"
+      },
+      {
+        "number": "$124,600,000",
+        "label": "Estimated league-wide costs of ACL and MCL-related injuries to NFL players in 2024-2025 season"
+      },
+      {
+        "number": "2.7x",
+        "label": "Likelihood of Female Soccer players to sustain a knee injury vs men at the same level of play."
       }
     ]
   }
