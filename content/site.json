@@ -54,8 +54,8 @@
     ]
   },
   "brands": {
-    "headline": "Aligned with Industry Leaders",
-    "description": "This technology maps directly to the innovation strategies of the world’s top athletic brands.",
+    "headline": "Aligned with Industry Standards",
+    "description": "This technology maps directly to the innovation strategies of the world’s top athletic brands. \n\nLittle to no re-tooling required for manufacture. Rotors weigh less than 300 grams.",
     "cards": [
       {
         "name": "Nike",
@@ -117,7 +117,7 @@
     ]
   },
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "message": "We're updating our site. Please check back shortly."
   },
   "videos": {
@@ -163,8 +163,8 @@
     ]
   },
   "solution": {
-    "headline": "The Rotors Turntable System",
-    "description": "A precision-engineered turntable on the ball of the foot that allows natural rotation during rapid cutting — instantly releasing, rather than grabbing, the turf. \nWe're the first customizable PLATFORM that allows for quick-change resistance in the Rotor mechanism and different cleat shapes to adapt to changing field and player fatigue, on the fly.",
+    "headline": "Solution:  The Rotors Platform",
+    "description": "We're the first customizable FOOTWEAT PLATFORM that allows for player customization on the fly.\n\nWe started with a precision-engineered turntable on the ball of the foot that allows natural rotation during rapid cutting — instantly releasing, rather than grabbing, the turf. \n\nBy swapping out our proprietary collection of Rotor gears, players can instantaneously increase or decrease resistance on their turntable. \n\nRotor gears come in a variety of engineered shapes to grip or release quickly, based on field conditions and weather on game day.\n\nOur Patent-Pending Heel Fins are designed to provide give and flex, bending prevent anchoring but providing stopping power.",
     "cards": [
       {
         "icon": "⚙",
@@ -187,7 +187,7 @@
     "badge": "Patented IP • Ready to License",
     "headline": "Cleats have an inherent Design Flaw.   ",
     "headline_highlight": "We Fixed it.",
-    "description": "A revolutionary, patented turntable cleat system engineered to dramatically decrease rotational stress on the ACL/MCL — without compromising the lateral stability or explosive traction elite athletes demand.",
+    "description": "A revolutionary, patented turntable cleat system engineered to dramatically decrease rotational stress on the ACL/MCL — without compromising the lateral stability or explosive traction that athletes demand.",
     "image": "Brooks Rotors GoDaddy/Float 2-9-26.jpg"
   },
   "footer": {
@@ -195,11 +195,11 @@
     "notice": "Confidential — Not for public distribution"
   },
   "problem": {
-    "headline": "Cleats Maximize Traction but there's a Cost.",
-    "text1": "Fixed studs create high torsional resistance, making non-contact ACL/MCL tears an epidemic in soccer, football, and lacrosse. When an athlete plants and pivots, the foot stays locked in the turf while the body rotates — transferring catastrophic force to the knee.",
-    "text2": "Karolinias et al. (5/5/25) demonstrated that fatigue plays a significant role in ACL injuries. Current footwear offers zero adaptability to changing athlete conditions.",
-    "image": "Brooks Rotors GoDaddy/injuries-2.jpg",
-    "caption": "Non-contact ACL tear — the foot sticks while the body rotates, devastating the knee.",
+    "headline": "The Problem:  Cleats Maximize Traction but there's a Cost.",
+    "text1": "Fixed studs create high torsional resistance, making non-contact ACL/MCL tears an epidemic in soccer, football, and lacrosse. \n\nThe same traction a player values becomes his worst enemy",
+    "text2": "Non-contact ACL tear — the foot sticks while the body rotates, creating dangerous torque on the knee.",
+    "image": "Brooks Rotors GoDaddy/double-injury.jpg",
+    "caption": "Non-contact ACL tear — the foot sticks while the body rotates, creating dangerous torque on the knee.",
     "stats": [
       {
         "number": "250K+",
