@@ -7,13 +7,7 @@
         "image": "Brooks Rotors GoDaddy/Multicolor B.jpg",
         "title": "Full Sole Assembly — 3D CAD",
         "description": "Complete cleat plate with the Rotors turntable integrated at the ball of the foot. Shows the full sole architecture including fixed studs at the heel and the rotational mechanism at the forefoot.",
-        "featured": false
-      },
-      {
-        "image": "Brooks Rotors GoDaddy/Float 2-9-26.jpg",
-        "title": "Rotors Cleat — Profile View",
-        "description": "The Rotors cleat from the side, showing the integrated turntable system flush-mounted in the sole. Designed for seamless aesthetics and elite-level performance.",
-        "featured": false
+        "featured": true
       },
       {
         "image": "Brooks Rotors GoDaddy/Shapr 4.jpg",
@@ -123,7 +117,7 @@
     ]
   },
   "maintenance": {
-    "enabled": true,
+    "enabled": false,
     "message": "We're updating our site. Please check back shortly."
   },
   "videos": {
@@ -171,7 +165,6 @@
   "solution": {
     "headline": "Solution:  The Rotors Platform",
     "description": "We're the first customizable FOOTWEAT PLATFORM that allows for player customization on the fly.\n\nWe started with a precision-engineered turntable on the ball of the foot that allows natural rotation during rapid cutting — instantly releasing, rather than grabbing, the turf. \n\nBy swapping out our proprietary collection of Rotor gears, players can instantaneously increase or decrease resistance on their turntable. \n\nRotor gears come in a variety of engineered shapes to grip or release quickly, based on field conditions and weather on game day.\n\nOur Patent-Pending Heel Fins are designed to provide give and flex, bending prevent anchoring but providing stopping power.",
-    "feature_image": "Brooks Rotors GoDaddy/Copy of Colored rotors.jpg",
     "cards": [
       {
         "icon": "⚙",
@@ -205,10 +198,8 @@
     "headline": "The Problem:  Cleats Maximize Traction but there's a Cost.",
     "text1": "Fixed studs create high torsional resistance, making non-contact ACL/MCL tears an epidemic in soccer, football, and lacrosse. \n\nThe same traction a player values becomes his worst enemy",
     "text2": "Non-contact ACL tear — the foot sticks while the body rotates, creating dangerous torque on the knee.",
-    "image": "Brooks Rotors GoDaddy/redskins knee.jpg",
-    "caption": "Washington — Non-contact ACL injury",
-    "image2": "Brooks Rotors GoDaddy/injuries-2.jpg",
-    "caption2": "Georgia — Non-contact ACL injury",
+    "image": "Brooks Rotors GoDaddy/double-injury.jpg",
+    "caption": "Non-contact ACL tear — the foot sticks while the body rotates, creating dangerous torque on the knee.",
     "stats": [
       {
         "number": "250K+",
