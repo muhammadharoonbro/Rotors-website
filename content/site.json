@@ -202,13 +202,14 @@
     "notice": "Confidential — Not for public distribution"
   },
   "problem": {
-    "headline": "The Problem:  Cleats Maximize Traction but there's a Cost.",
     "text1": "Fixed studs create high torsional resistance, making non-contact ACL/MCL tears an epidemic in soccer, football, and lacrosse. \n\nThe same traction a player values becomes his worst enemy",
     "text2": "Non-contact ACL tear — the foot sticks while the body rotates, creating dangerous torque on the knee.",
-    "image": "Brooks Rotors GoDaddy/redskins knee.jpg",
     "caption": "Washington — Non-contact ACL injury",
-    "image2": "Brooks Rotors GoDaddy/injuries-2.jpg",
     "caption2": "Georgia — Non-contact ACL injury",
+    "stats_feature_image": "Brooks Rotors GoDaddy/injured.jpg",
+    "headline": "The Problem:  Cleats Maximize Traction but there's a Cost.",
+    "image2": "Brooks Rotors GoDaddy/injuries-2.jpg",
+    "image": "Brooks Rotors GoDaddy/redskins knee.jpg",
     "stats": [
       {
         "number": "250K+",
