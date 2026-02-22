@@ -151,7 +151,7 @@ section {
 }
 
 .nav-logo img {
-  height: 60px;
+  height: 120px;
   width: auto;
 }
 
@@ -216,7 +216,7 @@ section {
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding-top: 5rem;
+  padding-top: 10rem;
 }
 
 .hero::before {
@@ -245,15 +245,43 @@ section {
 
 .hero-badge {
   display: inline-block;
-  padding: 0.4rem 1rem;
-  border: 1px solid rgba(200, 16, 46, 0.4);
+  padding: 0.75rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 50px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.15em;
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--primary);
+  color: var(--white);
   margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, transparent 50%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-badge::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.08) 40%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.08) 60%,
+    transparent 100%
+  );
+  animation: badge-gleam 4s ease-in-out infinite;
+}
+
+@keyframes badge-gleam {
+  0%, 100% { left: -100%; opacity: 0; }
+  10% { opacity: 1; }
+  60% { left: 150%; opacity: 1; }
+  70%, 100% { opacity: 0; }
 }
 
 .hero h1 {
@@ -280,6 +308,43 @@ section {
   width: 100%;
   border-radius: 12px;
   filter: drop-shadow(0 20px 60px rgba(200, 16, 46, 0.15));
+}
+
+.hero-video-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  border: 2px dashed var(--gray-700);
+  background: var(--dark-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.hero-video-placeholder .placeholder-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(200, 16, 46, 0.15);
+  border: 1px solid rgba(200, 16, 46, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: var(--primary);
+}
+
+.hero-video-placeholder p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--gray-300);
+}
+
+.hero-video-placeholder span {
+  font-size: 0.8rem;
+  color: var(--gray-500);
 }
 
 .hero-image::after {
@@ -361,6 +426,12 @@ section {
   align-items: center;
 }
 
+.problem-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
 .problem-image {
   position: relative;
   border-radius: 12px;
@@ -377,7 +448,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 1.5rem;
+  padding: 1.25rem;
   background: linear-gradient(transparent, rgba(0,0,0,0.85));
   font-size: 0.85rem;
   color: var(--gray-300);
@@ -394,8 +465,9 @@ section {
 }
 
 .stat-row {
-  display: flex;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 
@@ -411,11 +483,52 @@ section {
 }
 
 .stat-label {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--gray-300);
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   margin-top: 0.25rem;
+  line-height: 1.4;
+}
+
+.stats-feature-image {
+  margin-top: 2.5rem;
+  grid-column: 1 / -1;
+}
+
+.stats-feature-image img {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 3 / 5;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--gray-700);
+}
+
+.stats-feature-image .image-placeholder {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 3 / 5;
+  max-height: 500px;
+  border-radius: 12px;
+  border: 2px dashed var(--gray-700);
+  background: var(--dark-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.stats-feature-image .image-placeholder p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-300);
+}
+
+.stats-feature-image .image-placeholder span {
+  font-size: 0.8rem;
+  color: var(--gray-500);
 }
 
 /* ===== SOLUTION SECTION ===== */
@@ -436,6 +549,18 @@ section {
 .solution-header p {
   color: var(--gray-300);
   font-size: 1.05rem;
+}
+
+.solution-feature-image {
+  margin: 0 auto 3rem;
+  max-width: 900px;
+  text-align: center;
+}
+
+.solution-feature-image img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--gray-700);
 }
 
 .solution-grid {
@@ -1092,6 +1217,15 @@ section {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 968px) {
+  .nav-logo img {
+    height: 80px;
+  }
+
+  .hero-badge {
+    font-size: 1.4rem;
+    padding: 0.5rem 1.25rem;
+  }
+
   .hero .container,
   .problem .container,
   .platform .container {
@@ -1125,7 +1259,7 @@ section {
   }
 
   .stat-row {
-    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .nav-links {
@@ -1167,7 +1301,7 @@ section {
 
   .hero {
     min-height: auto;
-    padding-top: 7rem;
+    padding-top: 10rem;
     padding-bottom: 3rem;
   }
 

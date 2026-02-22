@@ -117,33 +117,53 @@ function populatePage(data) {
   const heroBadge = document.querySelector('.hero-badge');
   const heroH1 = document.querySelector('.hero h1');
   const heroText = document.querySelector('.hero-text');
-  const heroImg = document.querySelector('.hero-image img');
+  const heroVideo = document.getElementById('heroVideo');
+  const heroVideoPlaceholder = document.getElementById('heroVideoPlaceholder');
 
   if (heroBadge && data.hero) heroBadge.textContent = data.hero.badge;
   if (heroH1 && data.hero) heroH1.innerHTML = data.hero.headline + ' <span class="highlight">' + data.hero.headline_highlight + '</span>';
   if (heroText && data.hero) heroText.textContent = data.hero.description;
-  if (heroImg && data.hero) heroImg.setAttribute('src', data.hero.image);
+
+  if (data.hero && data.hero.video && heroVideo) {
+    heroVideo.innerHTML = '<source src="' + data.hero.video + '" type="video/mp4">';
+    heroVideo.load();
+    heroVideo.style.display = 'block';
+    if (heroVideoPlaceholder) heroVideoPlaceholder.style.display = 'none';
+  }
 
   // === PROBLEM ===
   if (data.problem) {
     const probH2 = document.querySelector('.problem h2');
     const probTexts = document.querySelectorAll('.problem .problem-text');
-    const probImg = document.querySelector('.problem-image img');
-    const probCaption = document.querySelector('.problem-image .caption');
+    const probImages = document.querySelectorAll('.problem-image img');
+    const probCaptions = document.querySelectorAll('.problem-image .caption');
 
     if (probH2) probH2.textContent = data.problem.headline;
     if (probTexts[0]) probTexts[0].textContent = data.problem.text1;
     if (probTexts[1]) probTexts[1].textContent = data.problem.text2;
-    if (probImg) probImg.setAttribute('src', data.problem.image);
-    if (probCaption) probCaption.textContent = data.problem.caption;
+    if (probImages[0] && data.problem.image) probImages[0].setAttribute('src', data.problem.image);
+    if (probCaptions[0] && data.problem.caption) probCaptions[0].textContent = data.problem.caption;
+    if (probImages[1] && data.problem.image2) probImages[1].setAttribute('src', data.problem.image2);
+    if (probCaptions[1] && data.problem.caption2) probCaptions[1].textContent = data.problem.caption2;
 
-    const statNumbers = document.querySelectorAll('.stat-number');
-    const statLabels = document.querySelectorAll('.stat-label');
-    if (data.problem.stats) {
-      data.problem.stats.forEach((stat, i) => {
-        if (statNumbers[i]) statNumbers[i].textContent = stat.number;
-        if (statLabels[i]) statLabels[i].textContent = stat.label;
+    const statRow = document.querySelector('.stat-row');
+    if (statRow && data.problem.stats) {
+      statRow.innerHTML = '';
+      data.problem.stats.forEach(stat => {
+        const div = document.createElement('div');
+        div.className = 'stat';
+        div.innerHTML = '<div class="stat-number">' + stat.number + '</div>' +
+          '<div class="stat-label">' + stat.label + '</div>';
+        statRow.appendChild(div);
       });
+    }
+
+    const statsFeatureImg = document.querySelector('#statsFeatureImage img');
+    const statsPlaceholder = document.querySelector('#statsFeatureImage .image-placeholder');
+    if (data.problem.stats_feature_image && statsFeatureImg) {
+      statsFeatureImg.setAttribute('src', data.problem.stats_feature_image);
+      statsFeatureImg.style.display = 'block';
+      if (statsPlaceholder) statsPlaceholder.style.display = 'none';
     }
   }
 
@@ -153,6 +173,11 @@ function populatePage(data) {
     const solP = document.querySelector('.solution-header p');
     if (solH2) solH2.textContent = data.solution.headline;
     if (solP) solP.textContent = data.solution.description;
+
+    const solFeatureImg = document.querySelector('.solution-feature-image img');
+    if (solFeatureImg && data.solution.feature_image) {
+      solFeatureImg.setAttribute('src', data.solution.feature_image);
+    }
 
     const cards = document.querySelectorAll('.solution-card');
     data.solution.cards.forEach((card, i) => {

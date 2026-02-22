@@ -59,7 +59,14 @@
         </div>
       </div>
       <div class="hero-image fade-in">
-        <img src="Brooks Rotors GoDaddy/Float 2-9-26.jpg" alt="Rotors Cleat - Side Profile">
+        <video id="heroVideo" muted autoplay loop playsinline style="display:none; width:100%; border-radius:12px; filter:drop-shadow(0 20px 60px rgba(200,16,46,0.15));">
+          Your browser does not support the video tag.
+        </video>
+        <div class="hero-video-placeholder" id="heroVideoPlaceholder">
+          <div class="placeholder-icon">&#9654;</div>
+          <p>Product Video Coming Soon</p>
+          <span>Upload via Admin Panel</span>
+        </div>
       </div>
     </div>
   </section>
@@ -67,9 +74,15 @@
   <!-- ===== THE PROBLEM ===== -->
   <section class="problem" id="problem">
     <div class="container">
-      <div class="problem-image fade-in">
-        <img src="Brooks Rotors GoDaddy/redskins knee.jpg" alt="Non-contact knee injury on field">
-        <div class="caption">Non-contact ACL tear &mdash; the foot sticks while the body rotates, devastating the knee.</div>
+      <div class="problem-images fade-in">
+        <div class="problem-image">
+          <img src="Brooks Rotors GoDaddy/redskins knee.jpg" alt="Non-contact knee injury - Washington">
+          <div class="caption">Washington &mdash; Non-contact ACL injury</div>
+        </div>
+        <div class="problem-image">
+          <img src="Brooks Rotors GoDaddy/injuries-2.jpg" alt="Non-contact knee injury - GA">
+          <div class="caption">Georgia &mdash; Non-contact ACL injury</div>
+        </div>
       </div>
       <div class="fade-in">
         <span class="section-label">The Problem</span>
@@ -90,6 +103,13 @@
             <div class="stat-label">Are Non-Contact</div>
           </div>
         </div>
+        <div class="stats-feature-image fade-in" id="statsFeatureImage">
+          <img src="" alt="European soccer player knee injuries" style="display:none;">
+          <div class="image-placeholder">
+            <p>European Soccer Injuries Image</p>
+            <span>Upload via Admin &rarr; Problem Section &rarr; "Stats Feature Image"</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -101,6 +121,9 @@
         <span class="section-label">The Solution</span>
         <h2>The Rotors Turntable System</h2>
         <p>A precision-engineered turntable on the ball of the foot that allows natural rotation during rapid cutting &mdash; instantly releasing, rather than grabbing, the turf.</p>
+      </div>
+      <div class="solution-feature-image fade-in">
+        <img src="Brooks Rotors GoDaddy/Copy of Colored rotors.jpg" alt="Rotors shoe system with colored gears">
       </div>
       <div class="solution-grid">
         <div class="solution-card fade-in">
@@ -131,7 +154,7 @@
         <p>From 3D CAD to functional prototypes &mdash; the Rotors system is fully developed and patent-protected.</p>
       </div>
       <div class="showcase-gallery">
-        <div class="showcase-item featured fade-in" data-lightbox="0">
+        <div class="showcase-item fade-in" data-lightbox="0">
           <img src="Brooks Rotors GoDaddy/Multicolor B.jpg" alt="Rotors Full Sole 3D CAD Model">
           <span class="zoom-hint">&#128269;</span>
           <div class="overlay">
@@ -140,6 +163,14 @@
           </div>
         </div>
         <div class="showcase-item fade-in" data-lightbox="1">
+          <img src="Brooks Rotors GoDaddy/Float 2-9-26.jpg" alt="Rotors Cleat - Profile View">
+          <span class="zoom-hint">&#128269;</span>
+          <div class="overlay">
+            <h4>Rotors Cleat &mdash; Profile View</h4>
+            <p>The Rotors cleat from the side, showing the integrated turntable system flush-mounted in the sole. Designed for seamless aesthetics and elite-level performance.</p>
+          </div>
+        </div>
+        <div class="showcase-item fade-in" data-lightbox="2">
           <img src="Brooks Rotors GoDaddy/Shapr 4.jpg" alt="Rotors 3D CAD Detail">
           <span class="zoom-hint">&#128269;</span>
           <div class="overlay">
@@ -147,7 +178,7 @@
             <p>Detailed CAD rendering of the rotor gear with cone-shaped interchangeable studs. The gear teeth interact with the torque-dampening system to control rotational resistance.</p>
           </div>
         </div>
-        <div class="showcase-item fade-in" data-lightbox="2">
+        <div class="showcase-item fade-in" data-lightbox="3">
           <img src="Brooks Rotors GoDaddy/Cog assembly.jpg" alt="Rotor Cog Assembly">
           <span class="zoom-hint">&#128269;</span>
           <div class="overlay">
@@ -155,7 +186,7 @@
             <p>3D-printed functional prototype showing the rotor with cleat studs, gear teeth around the circumference, and the central screw mounting system that secures it to the sole plate.</p>
           </div>
         </div>
-        <div class="showcase-item fade-in" data-lightbox="3">
+        <div class="showcase-item fade-in" data-lightbox="4">
           <img src="Brooks Rotors GoDaddy/Copy of FIG 2 Rotor in Sole.JPG" alt="Patent Figure - Rotor in Sole">
           <span class="zoom-hint">&#128269;</span>
           <div class="overlay">
@@ -163,7 +194,7 @@
             <p>Technical drawing from US Patent 11,388,947 B1 showing the rotor assembly (11) with cleat members (15), gear teeth (13), and the compressible torque-dampening device (21) that controls rotation.</p>
           </div>
         </div>
-        <div class="showcase-item fade-in" data-lightbox="4">
+        <div class="showcase-item fade-in" data-lightbox="5">
           <img src="Brooks Rotors GoDaddy/Copy of Colored rotors.jpg" alt="Multiple Rotor Configurations">
           <span class="zoom-hint">&#128269;</span>
           <div class="overlay">
@@ -171,7 +202,7 @@
             <p>Interchangeable rotor system shown with different colors representing different torque settings and stud configurations. The cleat can be reconfigured in seconds to match field conditions and athlete needs.</p>
           </div>
         </div>
-        <div class="showcase-item fade-in" data-lightbox="5">
+        <div class="showcase-item fade-in" data-lightbox="6">
           <img src="Brooks Rotors GoDaddy/Copy of Blue Rotor.jpg" alt="Blue Rotor on Cleat">
           <span class="zoom-hint">&#128269;</span>
           <div class="overlay">
@@ -179,7 +210,7 @@
             <p>Side view of the Rotors cleat showing the blue turntable mounted flush in the forefoot. The "R" branding is visible on the upper. Demonstrates how the rotor integrates seamlessly into the sole without adding bulk.</p>
           </div>
         </div>
-        <div class="showcase-item fade-in" data-lightbox="6">
+        <div class="showcase-item fade-in" data-lightbox="7">
           <img src="Brooks Rotors GoDaddy/Push pin.jpg" alt="Push Pin Mechanism Detail">
           <span class="zoom-hint">&#128269;</span>
           <div class="overlay">
@@ -187,7 +218,7 @@
             <p>Close-up showing how individual studs lock into the rotor gear using a push-pin retention system. This allows athletes to swap stud shapes (blade, cone, or Grabber&trade;) without tools.</p>
           </div>
         </div>
-        <div class="showcase-item fade-in" data-lightbox="7">
+        <div class="showcase-item fade-in" data-lightbox="8">
           <img src="Brooks Rotors GoDaddy/Copy of 微信图片_20221115083325.jpg" alt="Factory Spec Sheet">
           <span class="zoom-hint">&#128269;</span>
           <div class="overlay">
@@ -435,7 +466,7 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=2"></script>
+  <script src="js/main.js?v=3"></script>
   <script>
     // Netlify Identity redirect after login
     if (window.netlifyIdentity) {

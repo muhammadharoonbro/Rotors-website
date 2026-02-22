@@ -30,7 +30,8 @@ collections:
               - { label: "Headline", name: "headline", widget: "string" }
               - { label: "Headline Highlight", name: "headline_highlight", widget: "string", hint: "The colored part of the headline" }
               - { label: "Description", name: "description", widget: "text" }
-              - { label: "Hero Image", name: "image", widget: "image" }
+              - { label: "Hero Image (fallback)", name: "image", widget: "image", required: false }
+              - { label: "Hero Video (looping)", name: "video", widget: "file", required: false, hint: "Upload a video file to replace the hero image with a looping video." }
 
           # ===== PROBLEM SECTION =====
           - label: "Problem Section"
@@ -40,8 +41,11 @@ collections:
               - { label: "Headline", name: "headline", widget: "string" }
               - { label: "Paragraph 1", name: "text1", widget: "text" }
               - { label: "Paragraph 2", name: "text2", widget: "text" }
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Image Caption", name: "caption", widget: "string" }
+              - { label: "Injury Image 1", name: "image", widget: "image" }
+              - { label: "Image 1 Caption", name: "caption", widget: "string" }
+              - { label: "Injury Image 2", name: "image2", widget: "image", required: false }
+              - { label: "Image 2 Caption", name: "caption2", widget: "string", required: false }
+              - { label: "Stats Feature Image (large image below stats)", name: "stats_feature_image", widget: "image", required: false, hint: "Upload the European soccer injuries image here." }
               - label: "Statistics"
                 name: "stats"
                 widget: "list"
@@ -56,6 +60,7 @@ collections:
             fields:
               - { label: "Headline", name: "headline", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
+              - { label: "Feature Image (above cards)", name: "feature_image", widget: "image", required: false, hint: "Large image displayed between the description and the 3 solution cards." }
               - label: "Cards"
                 name: "cards"
                 widget: "list"
