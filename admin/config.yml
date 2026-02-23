@@ -52,6 +52,7 @@ collections:
                 fields:
                   - { label: "Number", name: "number", widget: "string" }
                   - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Image (optional)", name: "image", widget: "image", required: false, hint: "Small photo displayed below this stat." }
 
           # ===== SOLUTION SECTION =====
           - label: "Solution Section"

@@ -152,8 +152,12 @@ function populatePage(data) {
       data.problem.stats.forEach(stat => {
         const div = document.createElement('div');
         div.className = 'stat';
-        div.innerHTML = '<div class="stat-number">' + stat.number + '</div>' +
+        let html = '<div class="stat-number">' + stat.number + '</div>' +
           '<div class="stat-label">' + stat.label + '</div>';
+        if (stat.image) {
+          html += '<img class="stat-image" src="' + stat.image + '" alt="' + stat.label + '">';
+        }
+        div.innerHTML = html;
         statRow.appendChild(div);
       });
     }
