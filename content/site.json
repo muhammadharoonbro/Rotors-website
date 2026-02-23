@@ -123,7 +123,7 @@
     ]
   },
   "maintenance": {
-    "enabled": true,
+    "enabled": false,
     "message": "We're updating our site. Please check back shortly."
   },
   "videos": {
