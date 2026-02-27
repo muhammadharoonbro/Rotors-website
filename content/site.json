@@ -123,7 +123,7 @@
     ]
   },
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "message": "We're updating our site. Please check back shortly."
   },
   "videos": {
@@ -208,7 +208,7 @@
     "caption2": " ",
     "stats_feature_image": "Brooks Rotors GoDaddy/injured.jpg",
     "headline": "The Problem:  Cleats Maximize Traction but there's a Cost.",
-    "image2": "Brooks Rotors GoDaddy/knee-5.jpg",
+    "image2": "Brooks Rotors GoDaddy/knee-5a.jpg",
     "image": "Brooks Rotors GoDaddy/double-injury.jpg",
     "stats": [
       {
@@ -230,7 +230,7 @@
       {
         "number": "2.7x",
         "label": "Likelihood of Female Soccer players to sustain a knee injury vs men at the same level of play.",
-        "image": "Brooks Rotors GoDaddy/coed-injury.jpg"
+        "image": "Brooks Rotors GoDaddy/coed-injury-soccer.jpg"
       },
       {
         "number": "$124,600,000",
