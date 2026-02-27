@@ -62,38 +62,7 @@
   "brands": {
     "headline": "Aligned with Industry Standards",
     "description": "This technology maps directly to the innovation strategies of the world’s top athletic brands. \n\nLittle to no re-tooling required for manufacture. Rotors weigh less than 300 grams.",
-    "cards": [
-      {
-        "name": "Nike",
-        "tagline": "\"The Sport Offense\" • Athlete-Centered Innovation",
-        "bullets": [
-          "Aligns with unified innovation engine strategy",
-          "Integrates into Mercurial franchise",
-          "Powered Footwear positioning",
-          "Athlete-centered design philosophy"
-        ]
-      },
-      {
-        "name": "Adidas",
-        "tagline": "\"Own the Game\" • Strategic IP Focus",
-        "bullets": [
-          "Quality over quantity IP strategy",
-          "High-value, enforceable patent acquisition",
-          "Predator franchise integration",
-          "Strategic competitive moat"
-        ]
-      },
-      {
-        "name": "Puma",
-        "tagline": "\"Forever Faster\" • Pushing Boundaries",
-        "bullets": [
-          "Ultimate agility positioning",
-          "Radical redesign opportunity",
-          "Future franchise integration",
-          "Boundary-pushing innovation"
-        ]
-      }
-    ]
+    "cards": []
   },
   "cta": {
     "headline": "        ",
@@ -192,8 +161,8 @@
   },
   "hero": {
     "badge": "Patented IP • Ready to License",
-    "headline": "Cleats have an inherent Design Flaw.   ",
-    "headline_highlight": "We Fixed it.",
+    "headline": "This Is Not a Product Pitch. This Is a Strategic IP Acquisition.   ",
+    "headline_highlight": "Cleats have an inherent flaw. We Fixed it.",
     "description": "A revolutionary, patented turntable cleat system engineered to dramatically decrease rotational stress on the ACL/MCL — without compromising the lateral stability or explosive traction that athletes demand.",
     "image": "Brooks Rotors GoDaddy/Float 2-9-26.jpg",
     "video": "Brooks Rotors GoDaddy/short-clicks-loop.mp4"
