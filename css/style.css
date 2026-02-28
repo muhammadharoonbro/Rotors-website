@@ -233,7 +233,7 @@ section {
 
 .hero .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   gap: 4rem;
   align-items: center;
 }
@@ -1097,6 +1097,10 @@ section {
 
 .cta-section h2 {
   margin-bottom: 1rem;
+}
+
+.headline-spacer {
+  height: 2.5rem;
 }
 
 .cta-section p {
