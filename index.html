@@ -8,21 +8,14 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
-  <link rel="stylesheet" href="css/style.css?v=12">
+  <link rel="stylesheet" href="css/style.css?v=13">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 
-  <!-- ===== MAINTENANCE MODE OVERLAY ===== -->
-  <div class="maintenance-overlay" id="maintenanceOverlay" style="display:none;">
-    <div class="maintenance-content">
-      <img src="Brooks Rotors GoDaddy/TM Rotors Final .jpg" alt="Rotors Logo" class="maintenance-logo">
-      <h1>Under Maintenance</h1>
-      <p id="maintenanceMessage">We're updating our site. Please check back shortly.</p>
-    </div>
-  </div>
+  <!-- Maintenance overlay is created dynamically by JS when enabled -->
 
   <!-- ===== NAVIGATION ===== -->
   <nav class="navbar" id="navbar">
@@ -448,9 +441,9 @@ The same traction a player values becomes his worst enemy</p>
   <section class="cta-section" id="contact">
     <div class="container fade-in">
       <span class="section-label">Intellectual Property Opportunity</span>
-      <h2>This Is Not a Product Pitch.</h2>
-      <div class="headline-spacer"></div>
-      <h2>Cleats Have a Design Flaw. We Fixed It.</h2>
+      <h2 id="ctaHeadline1">This Is Not a Product Pitch.</h2>
+      <div class="headline-spacer" id="ctaSpacer"></div>
+      <h2 id="ctaHeadline2">Cleats Have a Design Flaw. We Fixed It.</h2>
       <p>We are seeking a licensing partnership with a market leader. This patented technology offers a turnkey, royalty-based licensing or full IP acquisition &mdash; allowing your brand to lead the next generation of injury-preventative footwear without the R&amp;D lead time.</p>
       <div class="btn-group">
         <a href="ip.html" class="btn btn-primary">View Full IP Portfolio &rarr;</a>
@@ -483,7 +476,7 @@ The same traction a player values becomes his worst enemy</p>
     </div>
   </footer>
 
-  <script src="js/main.js?v=4"></script>
+  <script src="js/main.js?v=5"></script>
   <script>
     // Netlify Identity redirect after login
     if (window.netlifyIdentity) {

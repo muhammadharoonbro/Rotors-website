@@ -97,13 +97,17 @@ async function loadContent() {
     // Check maintenance mode (bypass with ?preview=true in URL)
     const isPreview = new URLSearchParams(window.location.search).get('preview') === 'true';
     if (data.maintenance && data.maintenance.enabled && !isPreview) {
-      const overlay = document.getElementById('maintenanceOverlay');
-      const msg = document.getElementById('maintenanceMessage');
-      if (overlay) {
-        if (msg && data.maintenance.message) msg.textContent = data.maintenance.message;
-        overlay.style.display = 'flex';
-        return; // Don't load the rest of the page
-      }
+      const overlay = document.createElement('div');
+      overlay.className = 'maintenance-overlay';
+      overlay.id = 'maintenanceOverlay';
+      overlay.style.display = 'flex';
+      overlay.innerHTML = '<div class="maintenance-content">' +
+        '<img src="Brooks Rotors GoDaddy/TM Rotors Final .jpg" alt="Rotors Logo" class="maintenance-logo">' +
+        '<h1>Under Maintenance</h1>' +
+        '<p>' + (data.maintenance.message || "We're updating our site. Please check back shortly.") + '</p>' +
+        '</div>';
+      document.body.prepend(overlay);
+      return; // Don't load the rest of the page
     }
 
     populatePage(data);
@@ -331,10 +335,19 @@ function populatePage(data) {
 
   // === CTA ===
   if (data.cta) {
-    const ctaH2 = document.querySelector('.cta-section h2');
+    const ctaH2_1 = document.getElementById('ctaHeadline1');
+    const ctaH2_2 = document.getElementById('ctaHeadline2');
+    const ctaSpacer = document.getElementById('ctaSpacer');
     const ctaP = document.querySelector('.cta-section p');
     const ctaEmail = document.querySelector('.cta-section .btn-gold');
-    if (ctaH2) ctaH2.innerHTML = data.cta.headline;
+    if (ctaH2_1) ctaH2_1.innerHTML = data.cta.headline || '';
+    if (data.cta.headline2 && data.cta.headline2.trim()) {
+      if (ctaH2_2) { ctaH2_2.innerHTML = data.cta.headline2; ctaH2_2.style.display = ''; }
+      if (ctaSpacer) ctaSpacer.style.display = '';
+    } else {
+      if (ctaH2_2) ctaH2_2.style.display = 'none';
+      if (ctaSpacer) ctaSpacer.style.display = 'none';
+    }
     if (ctaP) ctaP.textContent = data.cta.description;
     if (ctaEmail) ctaEmail.setAttribute('href', 'mailto:' + data.cta.email);
   }

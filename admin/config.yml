@@ -138,7 +138,8 @@ collections:
             name: "cta"
             widget: "object"
             fields:
-              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Headline (Line 1)", name: "headline", widget: "string" }
+              - { label: "Headline (Line 2)", name: "headline2", widget: "string", required: false, hint: "Second headline displayed below a spacer bar. Leave empty to show only one headline." }
               - { label: "Description", name: "description", widget: "text" }
               - { label: "Contact Email", name: "email", widget: "string" }
 
