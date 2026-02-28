@@ -302,6 +302,8 @@ section {
 .hero-image {
   position: relative;
   z-index: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-image img {
@@ -312,7 +314,7 @@ section {
 
 .hero-video-placeholder {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 9 / 16;
   border-radius: 12px;
   border: 2px dashed var(--gray-700);
   background: var(--dark-card);
