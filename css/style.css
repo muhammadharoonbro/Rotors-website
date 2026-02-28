@@ -306,6 +306,15 @@ section {
   justify-content: center;
 }
 
+.hero-image video#heroVideo {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  border-radius: 16px;
+  filter: drop-shadow(0 20px 60px rgba(200, 16, 46, 0.15));
+}
+
 .hero-image img {
   width: 100%;
   border-radius: 12px;
@@ -314,8 +323,9 @@ section {
 
 .hero-video-placeholder {
   width: 100%;
+  max-width: 420px;
   aspect-ratio: 9 / 16;
-  border-radius: 12px;
+  border-radius: 16px;
   border: 2px dashed var(--gray-700);
   background: var(--dark-card);
   display: flex;
