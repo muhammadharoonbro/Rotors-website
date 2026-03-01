@@ -40,39 +40,27 @@
         "featured": false
       },
       {
-        "image": "Brooks Rotors GoDaddy/Copy of Blue Rotor.jpg",
-        "title": "Integrated Rotor — Cleat Profile",
-        "description": "Side view of the Rotors cleat showing the blue turntable mounted flush in the forefoot. The “R” branding is visible on the upper. Demonstrates how the rotor integrates seamlessly into the sole without adding bulk.",
-        "featured": false
-      },
-      {
         "image": "Brooks Rotors GoDaddy/Push pin.jpg",
         "title": "Stud Retention Detail",
         "description": "Close-up showing how individual studs lock into the rotor gear using a push-pin retention system. This allows athletes to swap stud shapes (blade, cone, or Grabber™) without tools.",
-        "featured": false
-      },
-      {
-        "image": "Brooks Rotors GoDaddy/Copy of 微信图片_20221115083325.jpg",
-        "title": "Manufacturing Specification",
-        "description": "Factory sample sheet from the production partner showing material callouts (kangaroo leather upper), color specifications, insole details, and the “R” branding placement for the prototype cleat.",
         "featured": false
       }
     ]
   },
   "brands": {
     "headline": "Aligned with Industry Standards",
-    "description": "This technology maps directly to the innovation strategies of the world’s top athletic brands. \n\nLittle to no re-tooling required for manufacture. Rotors weigh less than 300 grams.",
+    "description": "This technology maps directly to the innovation strategies of the world’s top athletic brands. \n\nLittle to no re-tooling required for manufacture. Our fully laced flyweight prototypes weigh less than 300 grams.",
     "cards": []
   },
   "cta": {
-    "headline": "This Is Not a Product Pitch.",
-    "headline2": "Cleats Have a Design Flaw. We Fixed It.",
-    "description": "We are seeking a licensing partnership with a market leader. This patented technology offers a turnkey, royalty-based licensing or full IP acquisition — allowing your brand to lead the next generation of injury-preventative footwear without the R&D lead time.",
+    "headline": "We're seeking a Licensing Partner",
+    "headline2": " ",
+    "description": "Rotors is seeking a licensing partnership with a market leader. This patented technology offers a turnkey, royalty-based licensing or full IP acquisition — allowing your brand to lead the next generation of injury-preventative footwear without the R&D lead time.",
     "email": "Brooks@rotorstech.com"
   },
   "platform": {
     "headline": "The First All-in-One Fully Customizable System",
-    "description": "Rotors is the first platform that is fully customizable to the athlete’s conditions at a specific moment. The system can be altered across three dimensions:",
+    "description": "Rotors is the first platform that is fully customizable to the athlete’s conditions at a specific moment. The system can be altered across three dimensions:\n*Tightness of the Rotor\n* Length of stud for ground hardness\n* Shape of stud for quicker release or more bite.",
     "image": "Brooks Rotors GoDaddy/Copy of Colored rotors.jpg",
     "features": [
       {
@@ -86,7 +74,7 @@
         "description": "Adaptable to field conditions — whether it’s freezing, raining, or a firm dry pitch."
       },
       {
-        "icon": "◆",
+        "icon": "◆ o <>",
         "title": "Stud Shape",
         "description": "Blade, cone, or Grabber™ moveable cleat shape — configurable for sport and surface."
       }
@@ -103,7 +91,7 @@
       {
         "video": "Brooks Rotors GoDaddy/A Copy of Video Nov 12 2025, 12 14 20 PM.mp4",
         "title": "Validated at an Independent University Lab",
-        "description": "Full walkthrough showing how the rotor, studs, and dampening system assemble into the sole plate. Highlights the modular design that enables easy servicing and customization.",
+        "description": "We tested our shoe with the famed TAFT machine footstrike simulator at the University of Tennessee's Turfgrass Institute. \nRotors was shown to dramatically decrease torque to the Athlete's lower extremity.\nWe beat a global footwear brand in the same test.",
         "featured": false
       },
       {
@@ -114,8 +102,8 @@
       },
       {
         "video": "Brooks Rotors GoDaddy/Copy of Bend Tabs.MOV",
-        "title": "Bend Tabs",
-        "description": "Demonstrates the flexible stud tab system — studs can flex under load to absorb lateral forces, adding another layer of protection beyond the rotational turntable.",
+        "title": "Patent-Pending Heel Fins",
+        "description": "Beyond the turntable, Rotors are designed to flex and give with our patent-pending Heel Fins, designed to decrease stress on the MCL. Made from Proprietary plastic, the fins are available in a variety of customizations. Testing continues.",
         "featured": false
       },
       {
@@ -140,7 +128,7 @@
   },
   "solution": {
     "headline": "Solution:  The Rotors Platform",
-    "description": "We're the first customizable FOOTWEAT PLATFORM that allows for player customization on the fly.\n\nWe started with a precision-engineered turntable on the ball of the foot that allows natural rotation during rapid cutting — instantly releasing, rather than grabbing, the turf. \n\nBy swapping out our proprietary collection of Rotor gears, players can instantaneously increase or decrease resistance on their turntable. \n\nRotor gears come in a variety of engineered shapes to grip or release quickly, based on field conditions and weather on game day.\n\nOur Patent-Pending Heel Fins are designed to provide give and flex, bending prevent anchoring but providing stopping power.",
+    "description": "We're the first customizable FOOTWEAR PLATFORM that allows for player customization on the fly.\n\nWe started with a precision-engineered turntable on the ball of the foot that allows natural rotation during rapid cutting, turning and evasive moves — instantly releasing, rather than grabbing, the turf. \n\nBy swapping out our proprietary collection of Rotor gears, players can instantaneously increase or decrease resistance on their turntable. \n\nRotor gears come in a variety of engineered shapes to grip or release quickly, based on field conditions and weather on game day.\n\nOur Patent-Pending Heel Fins are designed to provide give and flex, bending prevent anchoring but providing stopping power.",
     "feature_image": "Brooks Rotors GoDaddy/Copy of Colored rotors.jpg",
     "cards": [
       {
@@ -174,7 +162,7 @@
   },
   "problem": {
     "text1": "Fixed studs create high torsional resistance, making non-contact ACL/MCL tears an epidemic in soccer, football, and lacrosse. \n\nThe same traction a player values becomes his worst enemy",
-    "text2": "Non-contact ACL tear — the foot sticks while the body rotates, creating dangerous torque on the knee.",
+    "text2": "A painful ACL tear — the foot sticks in the turf while the body rotates, creating dangerous torque on the knee.",
     "caption": "  ",
     "caption2": " ",
     "stats_feature_image": "Brooks Rotors GoDaddy/injured.jpg",
