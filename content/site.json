@@ -1,14 +1,8 @@
 {
   "technology": {
-    "headline": "This Is Not a Product Pitch. This Is a Strategic IP Acquisition.",
-    "description": "Patent protected. Others pending.\n\nWe are seeking a licensing partnership with a market leader. This patented technology offers a turnkey, royalty-based licensing or full IP acquisition — allowing your brand to lead the next generation of injury-preventative footwear without the R&D lead time.",
+    "headline": "Patent protected. Others are pending in the US and overseas..",
+    "description": "We are seeking a licensing partnership with a market leader. This patented technology offers a turnkey, royalty-based licensing or full IP acquisition — allowing your brand to lead the next generation of injury-preventative footwear without the R&D lead time.",
     "items": [
-      {
-        "image": "Brooks Rotors GoDaddy/Multicolor B.jpg",
-        "title": "Full Sole Assembly — 3D CAD",
-        "description": "Complete cleat plate with the Rotors turntable integrated at the ball of the foot. Shows the full sole architecture including fixed studs at the heel and the rotational mechanism at the forefoot.",
-        "featured": false
-      },
       {
         "image": "Brooks Rotors GoDaddy/Float 2-9-26.jpg",
         "title": "Rotors Cleat — Profile View",
@@ -19,18 +13,6 @@
         "image": "Brooks Rotors GoDaddy/Shapr 4.jpg",
         "title": "Turntable Mechanism — 3D Model",
         "description": "Detailed CAD rendering of the rotor gear with cone-shaped interchangeable studs. The gear teeth interact with the torque-dampening system to control rotational resistance.",
-        "featured": false
-      },
-      {
-        "image": "Brooks Rotors GoDaddy/Cog assembly.jpg",
-        "title": "Cog Assembly — Prototype",
-        "description": "3D-printed functional prototype showing the rotor with cleat studs, gear teeth around the circumference, and the central screw mounting system that secures it to the sole plate.",
-        "featured": false
-      },
-      {
-        "image": "Brooks Rotors GoDaddy/Copy of FIG 2 Rotor in Sole.JPG",
-        "title": "Patent Figure — Rotor in Sole",
-        "description": "Technical drawing from US Patent 11,388,947 B1 showing the rotor assembly (11) with cleat members (15), gear teeth (13), and the compressible torque-dampening device (21) that controls rotation.",
         "featured": false
       },
       {
@@ -113,12 +95,6 @@
         "featured": false
       },
       {
-        "video": "Brooks Rotors GoDaddy/AA Copy of China Rotor Click.mp4",
-        "title": "Rotor Click — Production Sample",
-        "description": "Factory-produced rotor from the manufacturing partner demonstrating the same precision click engagement as the prototype — confirming production-readiness of the mechanism.",
-        "featured": false
-      },
-      {
         "video": "Brooks Rotors GoDaddy/AA Snow Pirouette.mov",
         "title": "Can your cleat do this?",
         "description": "Real-world demonstration of rotational freedom on a natural surface. The rotor allows a full pirouette turn while the studs remain planted — exactly the motion that would tear an ACL in a fixed-stud cleat.",
@@ -130,23 +106,7 @@
     "headline": "Solution:  The Rotors Platform",
     "description": "We're the first customizable FOOTWEAR PLATFORM that allows for player customization on the fly.\n\nWe started with a precision-engineered turntable on the ball of the foot that allows natural rotation during rapid cutting, turning and evasive moves — instantly releasing, rather than grabbing, the turf. \n\nBy swapping out our proprietary collection of Rotor gears, players can instantaneously increase or decrease resistance on their turntable. \n\nRotor gears come in a variety of engineered shapes to grip or release quickly, based on field conditions and weather on game day.\n\nOur Patent-Pending Heel Fins are designed to provide give and flex, bending prevent anchoring but providing stopping power.",
     "feature_image": "Brooks Rotors GoDaddy/Copy of Colored rotors.jpg",
-    "cards": [
-      {
-        "icon": "⚙",
-        "title": "Dynamic Biomechanical Performance",
-        "description": "Facilitates natural kinetic chain alignment during high-velocity pivots, actively minimizing rotational torque transferred to the knee joint during high-impact maneuvers."
-      },
-      {
-        "icon": "⚖",
-        "title": "Seamless Integration",
-        "description": "Designed as a modular cleat plate assembly, engineered to integrate into existing performance franchises (Nike Mercurial, Adidas Predator, Puma Future) with minimal tooling disruption."
-      },
-      {
-        "icon": "★",
-        "title": "Zero Performance Compromise",
-        "description": "Provides superior traction during acceleration while enabling “disengagement” protection during rotation. Athletes play with higher confidence and less fatigue."
-      }
-    ]
+    "cards": []
   },
   "hero": {
     "badge": "Patented IP • Ready to License",
