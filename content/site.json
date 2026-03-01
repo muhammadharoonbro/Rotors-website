@@ -80,7 +80,7 @@
         "video": "Brooks Rotors GoDaddy/AA Copy of Coin replace.MOV",
         "title": "Gears can be replaced on the fly in under 10 seconds",
         "description": "Watch the interchangeable rotor system in action — rotors swap out in seconds using a simple coin tool, allowing athletes to switch configurations between halves or before a match based on field conditions.",
-        "featured": true
+        "featured": false
       },
       {
         "video": "Brooks Rotors GoDaddy/Copy of Bend Tabs.MOV",
@@ -154,7 +154,7 @@
       {
         "number": "$124,600,000",
         "label": "Estimated league-wide costs of ACL and MCL-related injuries to NFL players in 2024-2025 season",
-        "image": "Brooks Rotors GoDaddy/double-injury.jpg"
+        "image": ""
       }
     ]
   }
