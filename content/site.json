@@ -14,18 +14,6 @@
         "title": "Turntable Mechanism — 3D Model",
         "description": "Detailed CAD rendering of the rotor gear with cone-shaped interchangeable studs. The gear teeth interact with the torque-dampening system to control rotational resistance.",
         "featured": false
-      },
-      {
-        "image": "Brooks Rotors GoDaddy/Copy of Colored rotors.jpg",
-        "title": "Multiple Rotor Configurations",
-        "description": "Interchangeable rotor system shown with different colors representing different torque settings and stud configurations. The cleat can be reconfigured in seconds to match field conditions and athlete needs.",
-        "featured": false
-      },
-      {
-        "image": "Brooks Rotors GoDaddy/Push pin.jpg",
-        "title": "Stud Retention Detail",
-        "description": "Close-up showing how individual studs lock into the rotor gear using a push-pin retention system. This allows athletes to swap stud shapes (blade, cone, or Grabber™) without tools.",
-        "featured": false
       }
     ]
   },
