@@ -119,13 +119,22 @@ async function loadContent() {
 function populatePage(data) {
   // === HERO ===
   const heroBadge = document.querySelector('.hero-badge');
-  const heroH1 = document.querySelector('.hero h1');
+  const heroH1_1 = document.getElementById('heroHeadline1');
+  const heroH1_2 = document.getElementById('heroHeadline2');
+  const heroSpacer = document.querySelector('.hero-content .headline-spacer');
   const heroText = document.querySelector('.hero-text');
   const heroVideo = document.getElementById('heroVideo');
   const heroVideoPlaceholder = document.getElementById('heroVideoPlaceholder');
 
   if (heroBadge && data.hero) heroBadge.textContent = data.hero.badge;
-  if (heroH1 && data.hero) heroH1.innerHTML = data.hero.headline + ' <span class="highlight">' + data.hero.headline_highlight + '</span>';
+  if (heroH1_1 && data.hero) heroH1_1.textContent = data.hero.headline;
+  if (data.hero && data.hero.headline_highlight && data.hero.headline_highlight.trim()) {
+    if (heroH1_2) { heroH1_2.innerHTML = '<span class="highlight">' + data.hero.headline_highlight + '</span>'; heroH1_2.style.display = ''; }
+    if (heroSpacer) heroSpacer.style.display = '';
+  } else {
+    if (heroH1_2) heroH1_2.style.display = 'none';
+    if (heroSpacer) heroSpacer.style.display = 'none';
+  }
   if (heroText && data.hero) heroText.textContent = data.hero.description;
 
   if (data.hero && data.hero.video && heroVideo) {
