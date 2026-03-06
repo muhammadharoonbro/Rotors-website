@@ -29,6 +29,7 @@ collections:
               - { label: "Badge Text", name: "badge", widget: "string" }
               - { label: "Headline", name: "headline", widget: "string" }
               - { label: "Headline Highlight", name: "headline_highlight", widget: "string", hint: "The colored part of the headline" }
+              - { label: "Headline (Line 3)", name: "headline3", widget: "string", required: false, hint: "Optional third headline line displayed below the highlight." }
               - { label: "Description", name: "description", widget: "text" }
               - { label: "Hero Image (fallback)", name: "image", widget: "image", required: false }
               - { label: "Hero Video (looping)", name: "video", widget: "file", required: false, hint: "Upload a video file to replace the hero image with a looping video." }
@@ -118,20 +119,17 @@ collections:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Description", name: "description", widget: "text" }
 
-          # ===== BRANDS SECTION =====
-          - label: "Brands Section"
-            name: "brands"
-            widget: "object"
+          # ===== IP DOCUMENTS =====
+          - label: "IP Documents (Additional)"
+            name: "ip_documents"
+            widget: "list"
+            required: false
+            hint: "Add additional intellectual property documents to the IP Portfolio page."
             fields:
-              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
-              - label: "Brand Cards"
-                name: "cards"
-                widget: "list"
-                fields:
-                  - { label: "Brand Name", name: "name", widget: "string" }
-                  - { label: "Tagline", name: "tagline", widget: "string" }
-                  - { label: "Bullet Points", name: "bullets", widget: "list", field: { label: "Point", name: "point", widget: "string" } }
+              - { label: "Document Image", name: "image", widget: "image", required: false, hint: "Upload an image of the document." }
+              - { label: "Document File (PDF)", name: "file", widget: "file", required: false, hint: "Upload a PDF to link for download." }
 
           # ===== CTA SECTION =====
           - label: "Call to Action"

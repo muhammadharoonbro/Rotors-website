@@ -135,6 +135,15 @@ function populatePage(data) {
     if (heroH1_2) heroH1_2.style.display = 'none';
     if (heroSpacer) heroSpacer.style.display = 'none';
   }
+  const heroH1_3 = document.getElementById('heroHeadline3');
+  const heroSpacer2 = document.getElementById('heroSpacer2');
+  if (data.hero && data.hero.headline3 && data.hero.headline3.trim()) {
+    if (heroH1_3) { heroH1_3.textContent = data.hero.headline3; heroH1_3.style.display = ''; }
+    if (heroSpacer2) heroSpacer2.style.display = '';
+  } else {
+    if (heroH1_3) heroH1_3.style.display = 'none';
+    if (heroSpacer2) heroSpacer2.style.display = 'none';
+  }
   if (heroText && data.hero) heroText.textContent = data.hero.description;
 
   if (data.hero && data.hero.video && heroVideo) {
@@ -315,30 +324,24 @@ function populatePage(data) {
     });
   }
 
-  // === BRANDS ===
-  if (data.brands) {
-    const brandsH2 = document.querySelector('.brands-header h2');
-    const brandsP = document.querySelector('.brands-header p');
-    if (brandsH2) brandsH2.textContent = data.brands.headline;
-    if (brandsP) brandsP.textContent = data.brands.description;
-
-    const brandCards = document.querySelectorAll('.brand-card');
-    data.brands.cards.forEach((card, i) => {
-      if (brandCards[i]) {
-        const name = brandCards[i].querySelector('h3');
-        const tagline = brandCards[i].querySelector('.tagline');
-        const ul = brandCards[i].querySelector('ul');
-        if (name) name.textContent = card.name;
-        if (tagline) tagline.textContent = card.tagline;
-        if (ul) {
-          ul.innerHTML = '';
-          card.bullets.forEach(b => {
-            const li = document.createElement('li');
-            li.textContent = b;
-            ul.appendChild(li);
-          });
-        }
+  // === ADDITIONAL IP DOCUMENTS ===
+  const ipDocsContainer = document.getElementById('additionalIpDocs');
+  if (ipDocsContainer && data.ip_documents && data.ip_documents.length) {
+    ipDocsContainer.innerHTML = '';
+    data.ip_documents.forEach(doc => {
+      const div = document.createElement('div');
+      div.className = 'ip-doc fade-in';
+      let html = '<h3>' + doc.title + '</h3>';
+      html += '<p class="ip-meta" style="margin-bottom:2rem;">' + doc.description + '</p>';
+      if (doc.image) {
+        html += '<img src="' + doc.image + '" alt="' + doc.title + '">';
       }
+      if (doc.file) {
+        html += '<div class="pdf-notice" style="margin-top:1.5rem;">' +
+          '<a href="' + doc.file + '" target="_blank" class="btn btn-outline">Open Document &rarr;</a></div>';
+      }
+      div.innerHTML = html;
+      ipDocsContainer.appendChild(div);
     });
   }
 

@@ -15,14 +15,7 @@
 </head>
 <body>
 
-  <!-- ===== MAINTENANCE MODE OVERLAY ===== -->
-  <div class="maintenance-overlay" id="maintenanceOverlay" style="display:none;">
-    <div class="maintenance-content">
-      <img src="Brooks Rotors GoDaddy/TM Rotors Final .jpg" alt="Rotors Logo" class="maintenance-logo">
-      <h1>Under Maintenance</h1>
-      <p id="maintenanceMessage">We're updating our site. Please check back shortly.</p>
-    </div>
-  </div>
+  <!-- Maintenance overlay is created dynamically by JS when enabled -->
 
   <!-- ===== NAVIGATION ===== -->
   <nav class="navbar scrolled" id="navbar">
@@ -119,6 +112,9 @@
         </div>
       </div>
 
+      <!-- Additional IP documents loaded from CMS -->
+      <div id="additionalIpDocs"></div>
+
     </div>
   </section>
 
@@ -147,6 +143,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=2"></script>
+  <script src="js/main.js?v=7"></script>
 </body>
 </html>
