@@ -83,6 +83,12 @@
         "title": "Can your cleat do this?",
         "description": "Real-world demonstration of rotational freedom on a natural surface. The rotor allows a full pirouette turn while the studs remain planted — exactly the motion that would tear an ACL in a fixed-stud cleat.",
         "featured": false
+      },
+      {
+        "featured": false,
+        "title": "OK, but can they take a hit?",
+        "video": "Brooks Rotors GoDaddy/car-bend-rabs.mov",
+        "description": "Built for demanding conditions"
       }
     ]
   },
